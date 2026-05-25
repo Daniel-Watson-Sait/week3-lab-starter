@@ -1,7 +1,7 @@
 <!-- Marc, Joshua, Justin, Daniel -->
 <!-- 2026 may 25th -->
 
-this is a change hehe
+this is a change
 
 # SAIT Directory App – Lab Activity
 
