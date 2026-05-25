@@ -35,6 +35,8 @@ interface staffMembers {
 
   specialties: string[];
 
+  courseIds: string[];
+
   funFact: string;
 }
 
