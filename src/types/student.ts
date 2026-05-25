@@ -1,3 +1,4 @@
+//Joshua working on this may 25th
 // TODO: Create a type for student ids, which should be strings
 
 // TODO: Create a type for student statuses, which can either be "Full-time", or "Part-time"
