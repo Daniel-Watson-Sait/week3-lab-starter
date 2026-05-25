@@ -15,4 +15,15 @@
 // once all group members have completed their sections, add the following field:
 // an optional array of program ids that this course is part of
 
-export interface Course {}
+export interface Course {
+    id: CourseId;
+    code: string;
+    title: string;
+    description: string;
+    credits?: number;
+    termNumber?: number;
+    deliveryMethod?: Delivery;
+    prerequisites? CourseId[];
+    note?: string;
+    programIds?: string[];
+}
