@@ -15,6 +15,10 @@
 // once all group members have completed their sections, add the following field:
 // an optional array of program ids that this course is part of
 
+import { DeliveryMethod } from './common';
+
+export type CourseId = string;
+
 export interface Course {
     id: CourseId;
     code: string;
@@ -22,7 +26,7 @@ export interface Course {
     description: string;
     credits?: number;
     termNumber?: number;
-    deliveryMethod?: Delivery;
+    deliveryMethod?: DeliveryMethod;
     prerequisites? CourseId[];
     note?: string;
     programIds?: string[];
