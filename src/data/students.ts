@@ -9,6 +9,8 @@ export const students: Student[] = [
     interests: ["coding", "rock climbing", "coffee"],
     gitUsername: "alex-codes-99",
     funfact: "I have a twin brother who is also a programmer.",
+    programId: ["PROG-CS"],
+    courseId: ["CS-101", "MATH-151", "ENG-102"],
   },
   {
     id: "STU002",
@@ -17,7 +19,8 @@ export const students: Student[] = [
     status: "Full-time",
     interests: ["photography", "pens", "digital art"],
     gitUsername: "samira-p",
-    // funfact and github are optional, leaving funfact out here
+    programId: ["PROG-GD"],
+    courseId: ["ART-302", "VCD-310"],
   },
   {
     id: "STU003",
@@ -26,7 +29,8 @@ export const students: Student[] = [
     status: "Part-time",
     interests: ["rocks", "hiking", "geology"],
     funfact: "I once found a geode shaped exactly like a heart.",
-    // gitUsername is optional
+    programId: ["PROG-ESC"],
+    courseId: ["GEOL-201"],
   },
   {
     id: "STU004",
@@ -36,15 +40,18 @@ export const students: Student[] = [
     interests: ["pencils", "animation", "gaming"],
     gitUsername: "chloe-z-draws",
     funfact: "I can speak four languages fluently.",
+    programId: ["PROG-ANI"],
+    courseId: ["ANI-401", "ANI-402", "CAP-499"],
   },
   {
     id: "STU005",
     name: "Jordan Davies",
     year: 1,
     status: "Part-time",
-    interests: ["none", "cooking"], // Keeping the "none" interest option from your list!
+    interests: ["none", "cooking"],
     gitUsername: "jordan-devs",
     funfact: "I used to be a professional pastry chef.",
+    // Program and courses left out entirely (optional fields)
   },
   {
     id: "STU006",
@@ -54,6 +61,8 @@ export const students: Student[] = [
     interests: ["chess", "coffee", "cybersecurity"],
     gitUsername: "elena-rostov",
     funfact: "I can solve a Rubik's cube blindfolded.",
+    programId: ["PROG-CS", "MIN-CYBER"], // Multiple program IDs if they are double majoring/minoring
+    courseId: ["CS-210", "SEC-250", "MATH-221"],
   },
   {
     id: "STU007",
@@ -62,6 +71,7 @@ export const students: Student[] = [
     status: "Part-time",
     interests: ["music production", "skateboarding"],
     funfact: "I built my own electric guitar from scratch.",
+    courseId: ["MUS-301"], // Has courses but programId omitted
   },
   {
     id: "STU008",
@@ -71,5 +81,7 @@ export const students: Student[] = [
     interests: ["machine learning", "robotics", "scuba diving"],
     gitUsername: "aisha-t-ai",
     funfact: "I have dived with whale sharks in the Maldives.",
+    programId: ["PROG-ROB"],
+    courseId: ["ROB-411", "AI-450"],
   },
 ];

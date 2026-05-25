@@ -1,6 +1,5 @@
 //Joshua working on this may 25th
 // TODO: Create a type for student ids, which should be strings
-
 type studentId = string;
 
 // TODO: Create a type for student statuses, which can either be "Full-time", or "Part-time"
@@ -26,8 +25,8 @@ interface students {
   interests: string[];
   gitUsername?: string;
   funfact?: string;
-  // programId?:id,
-  // currentCourseId?: string[],
+  programId?: string[];
+  courseId?: string[];
 }
 
 // once all group members have completed their sections, add the following fields:
