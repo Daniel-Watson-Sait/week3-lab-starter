@@ -27,7 +27,7 @@ export interface Course {
     credits?: number;
     termNumber?: number;
     deliveryMethod?: DeliveryMethod;
-    prerequisites? CourseId[];
+    prerequisites?: CourseId[];
     note?: string;
     programIds?: string[];
 }
