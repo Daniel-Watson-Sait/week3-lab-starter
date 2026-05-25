@@ -17,5 +17,3 @@
 // an optional array of current course ids
 
 export interface Student {}
-
-testStuff...
